@@ -1,0 +1,6 @@
+SELECT
+  year,
+AVG(temp) AS avg_temp
+FROM `bigquery-public-data.noaa_gsod.gsod*`
+GROUP BY year
+ORDER BY year ASC; 
