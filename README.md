@@ -1,4 +1,4 @@
-[SQL Query.txt](https://github.com/user-attachments/files/15525507/SQL.Query.txt)# SQL-Looker-Project1
+SQL-Looker-Project1
 
 In this project I needed to create a chart that shows the average temperature by year over the past century. I wrote a SQL query using Google BigQuery to calculate the average, grouped the average temperatures by year, and ordered it in ascending order. 
 
