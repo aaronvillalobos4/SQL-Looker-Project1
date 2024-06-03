@@ -1,6 +1,6 @@
 # Average Temperature Project
 
-In this project I needed to create a chart that shows the average temperature by year over the past century. I wrote a SQL query using Google BigQuery to calculate the average, grouped the average temperatures by year, and ordered it in ascending order. 
+For this project, I needed to create a chart showing the average temperature by year over the past century. I wrote an SQL query using Google BigQuery to calculate the average, grouped the average temperatures by year, and ordered them in ascending order. For the line chart, I imported my data set from Google BigQuery to Google Looker Studio.
 
 
 
