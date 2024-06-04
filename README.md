@@ -8,6 +8,6 @@ For this project, I needed to create a chart showing the average temperature by 
 
 
 
-![image](https://github.com/aaronvillalobos4/SQL-Looker-Project1/assets/32658264/a7e4947e-e78a-4f69-9fbd-be3d0ff65e03)
+![Average Temperature by Year](https://github.com/aaronvillalobos4/SQL-Looker-Project1/assets/32658264/6480975b-8e9e-4af1-b716-461b183f452c)
 
 
