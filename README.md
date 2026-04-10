@@ -1,6 +1,26 @@
 # Average Temperature Project
 
-For this project, I needed to create a chart showing the average temperature by year over the past century. I wrote an SQL query using Google BigQuery to calculate the average, grouped the average temperatures by year, and ordered them in ascending order. For the line chart, I imported my data set from Google BigQuery to Google Looker Studio.
+<h2>Global Temperature Trends Analysis</h2>
+This project utilizes SQL within Google BigQuery to analyze historical weather patterns. By querying the NOAA Global Surface Summary of the Day (GSOD) public dataset, the project extracts yearly temperature averages to identify long-term climate trends.
+
+<h2>Project Overview</h2>
+The primary goal of this script is to aggregate vast amounts of daily weather station data into a concise yearly format. This processed data is designed to be used in visualization tools like Looker or Tableau to create time-series dashboards.
+
+<h2>Data Source</h2>
+Dataset: bigquery-public-data.noaa_gsod
+
+Table: gsod* (Wildcard table covering historical records)
+
+Provider: National Oceanic and Atmospheric Administration (NOAA)
+
+<h2>Key Logic:</h2>
+Selection: Retrieves the calendar year and calculates the mean temperature.
+
+Wildcard Query: Uses the * suffix to query across all yearly tables in the NOAA GSOD dataset simultaneously.
+
+Aggregation: Groups results by year to consolidate millions of daily records into single annual data points.
+
+Sorting: Orders the results chronologically for seamless time-series mapping.
 
 
 
