@@ -13,7 +13,9 @@ Table: gsod* (Wildcard table covering historical records)
 
 Provider: National Oceanic and Atmospheric Administration (NOAA)
 
-<h2>Key Logic:</h2>
+<h2>Tech Stack & Logic:</h2>
+Languages: SQL 
+
 Selection: Retrieves the calendar year and calculates the mean temperature.
 
 Wildcard Query: Uses the * suffix to query across all yearly tables in the NOAA GSOD dataset simultaneously.
